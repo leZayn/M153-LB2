@@ -18,3 +18,13 @@ Anforderungsanalyse
 Projektablaufplan 
 Terminplanung
 			Testbericht
+
+
+UseCases: 
+Artikel inkls. Menge  erfassen 
+
+Artikel
+	- ID 
+	- Name 
+
+
