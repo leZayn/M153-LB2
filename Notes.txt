@@ -23,8 +23,19 @@ Terminplanung
 UseCases: 
 Artikel inkls. Menge  erfassen 
 
+
+Entitäten:
 Artikel
 	- ID 
-	- Name 
+	- Artikelname 
+	- Hersteller_ID
+Hersteller/Marke 
+	- ID 
+	- Markenname 
+Ort/Standort 
+	- ID 
+	- Ortsname 
+	- postleitzahl
 
-
+zusätzliche Entitäten: 
+CheckInCheckOut
