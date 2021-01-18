@@ -1,0 +1,74 @@
+
+INSERT INTO `LB03-Lagerverwaltung`.tbl_land (land_id, name) VALUES (6, 'Deutschland');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_land (land_id, name) VALUES (8, 'Frankreich');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_land (land_id, name) VALUES (7, 'Italien');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_land (land_id, name) VALUES (5, 'Schweiz');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_land (land_id, name) VALUES (9, 'Spanien');
+
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (3, 'Berlin', '10243', 6);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (4, 'Niederhasli', '8155', 5);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (5, 'Volketswil', '8604', 5);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (6, 'Paris', '75000', 8);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (7, 'Madrid', '28001', 9);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (8, 'Toledo', '45000', 9);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (9, 'Barcelona', '08000', 9);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (10, 'Chorges', '05230', 8);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (11, 'Rom', '00118', 7);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (12, 'Perugia', '06100', 7);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (13, 'Ferrara', '44100', 7);
+
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (19, 'Beamer');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (15, 'Digital pen');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (20, 'Drohne');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (10, 'Fernseher');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (7, 'Gehäuse');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (17, 'Konsole');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (13, 'Kopfhörer');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (8, 'Ladekabel');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (16, 'Lautsprecher');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (12, 'Mobilephone');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (9, 'Monitor');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (6, 'PC Netzteil');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (18, 'Smartwatch');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (5, 'Speicher');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (14, 'Tablet');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (11, 'Waschmaschine');
+
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (5, 'Apple', 3);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (6, 'Microsoft', 5);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (7, 'Asus', 9);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (8, 'Intel', 11);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (9, 'LG', 13);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (10, 'Samsung', 3);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (11, 'Phillips', 8);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (12, 'Panasonic', 4);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (13, 'Lenovo', 10);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (14, 'Sony', 12);
+
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (13, 'Abu', 'Rammo');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (7, 'Alan', 'Parmaksiz');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (8, 'Colin', 'Anderau');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (11, 'Florian', 'Weiss');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (9, 'Hans', 'Müller');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (16, 'Isabella', 'Eiseneger');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (12, 'Mehmet', 'al hayat');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (17, 'Monika', 'Monk');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (15, 'Nati', 'Hamady');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (10, 'Peter', 'SChmitt');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (6, 'Phearum', 'Svay');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (14, 'Tony', 'Hamady');
+
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (8, 5, 10, 4, 17, 10, 'SSD Speicher', 1, 'D', 12);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (9, 5, 10, 5, 10, 12, 'SSD Speicher', 2, 'A', 22);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (10, 6, 7, 4, 12, 6, 'Laptop Netzteil ', 3, 'R', 2);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (11, 6, 7, 5, 11, 22, 'Laptop Netzteil', 1, 'K', 3);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (12, 7, 13, 4, 9, 3, 'RGB Gehäuse', 1, 'L', 15);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (13, 7, 13, 4, 9, 5, 'RGB Gehäuse', 2, 'O', 16);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (14, 7, 13, 4, 9, 2, 'RGB Gehäuse', 2, 'A', 2);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (15, 7, 13, 5, 10, 15, 'RGB Gehäuse', 1, 'D', 15);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (16, 8, 5, 4, 8, 32, 'Iphone Ladekabel', 3, 'C', 2);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (17, 8, 5, 4, 8, 62, 'Iphone Ladekabel', 2, 'D', 32);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (18, 8, 5, 5, 6, 150, 'Iphone Ladekabel', 1, 'A', 2);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (20, 8, 10, 5, 6, 120, 'Samsung Ladekabel', 1, 'A', 3);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (21, 9, 11, 4, 7, 3, '4k Monitor', 2, 'C', 4);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (23, 9, 7, 4, 7, 4, '8K Monitor', 2, 'C', 5);
