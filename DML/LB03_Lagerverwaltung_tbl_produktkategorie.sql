@@ -1,0 +1,16 @@
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (19, 'Beamer');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (15, 'Digital pen');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (20, 'Drohne');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (10, 'Fernseher');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (7, 'Gehäuse');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (17, 'Konsole');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (13, 'Kopfhörer');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (8, 'Ladekabel');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (16, 'Lautsprecher');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (12, 'Mobilephone');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (9, 'Monitor');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (6, 'PC Netzteil');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (18, 'Smartwatch');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (5, 'Speicher');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (14, 'Tablet');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_produktkategorie (produktkategorie_id, name) VALUES (11, 'Waschmaschine');

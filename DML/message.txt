@@ -1,0 +1,41 @@
+create table tbl_artikel
+(
+    artikel_id          int auto_increment
+        primary key,
+    id_produktkategorie int          not null,
+    id_hersteller       int          not null,
+    id_standort         int          not null,
+    id_mitarbeiter      int          not null,
+    anzahl              int          null,
+    name                varchar(255) null,
+    stockwerk           int          null,
+    regal               varchar(255) null,
+    ablage              int          null,
+    constraint tbl_artikel_anzahl_name_stockwerk_regal_ablage_uindex
+        unique (anzahl, name, stockwerk, regal, ablage),
+    constraint tbl_artikel_stockwerk_regal_ablage_uindex
+        unique (stockwerk, regal, ablage),
+    constraint tbl_artikel_tbl_hersteller_hersteller_id_fk
+        foreign key (id_hersteller) references tbl_hersteller (hersteller_id),
+    constraint tbl_artikel_tbl_mitarbeiter_mitarbeiter_id_fk
+        foreign key (id_mitarbeiter) references tbl_mitarbeiter (mitarbeiter_id),
+    constraint tbl_artikel_tbl_produktkategorie_produktkategorie_id_fk
+        foreign key (id_produktkategorie) references tbl_produktkategorie (produktkategorie_id),
+    constraint tbl_artikel_tbl_standort_standort_id_fk
+        foreign key (id_standort) references tbl_standort (standort_id)
+);
+
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (8, 5, 10, 4, 17, 10, 'SSD Speicher', 1, 'D', 12);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (9, 5, 10, 5, 10, 12, 'SSD Speicher', 2, 'A', 22);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (10, 6, 7, 4, 12, 6, 'Laptop Netzteil ', 3, 'R', 2);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (11, 6, 7, 5, 11, 22, 'Laptop Netzteil', 1, 'K', 3);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (12, 7, 13, 4, 9, 3, 'RGB Gehäuse', 1, 'L', 15);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (13, 7, 13, 4, 9, 5, 'RGB Gehäuse', 2, 'O', 16);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (14, 7, 13, 4, 9, 2, 'RGB Gehäuse', 2, 'A', 2);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (15, 7, 13, 5, 10, 15, 'RGB Gehäuse', 1, 'D', 15);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (16, 8, 5, 4, 8, 32, 'Iphone Ladekabel', 3, 'C', 2);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (17, 8, 5, 4, 8, 62, 'Iphone Ladekabel', 2, 'D', 32);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (18, 8, 5, 5, 6, 150, 'Iphone Ladekabel', 1, 'A', 2);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (20, 8, 10, 5, 6, 120, 'Samsung Ladekabel', 1, 'A', 3);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (21, 9, 11, 4, 7, 3, '4k Monitor', 2, 'C', 4);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_artikel (artikel_id, id_produktkategorie, id_hersteller, id_standort, id_mitarbeiter, anzahl, name, stockwerk, regal, ablage) VALUES (23, 9, 7, 4, 7, 4, '8K Monitor', 2, 'C', 5);

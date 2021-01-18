@@ -1,0 +1,10 @@
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (5, 'Apple', 3);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (6, 'Microsoft', 5);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (7, 'Asus', 9);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (8, 'Intel', 11);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (9, 'LG', 13);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (10, 'Samsung', 3);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (11, 'Phillips', 8);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (12, 'Panasonic', 4);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (13, 'Lenovo', 10);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_hersteller (hersteller_id, name, id_standort) VALUES (14, 'Sony', 12);

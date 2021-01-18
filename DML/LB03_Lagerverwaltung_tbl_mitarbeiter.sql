@@ -1,0 +1,12 @@
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (13, 'Abu', 'Rammo');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (7, 'Alan', 'Parmaksiz');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (8, 'Colin', 'Anderau');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (11, 'Florian', 'Weiss');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (9, 'Hans', 'Müller');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (16, 'Isabella', 'Eiseneger');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (12, 'Mehmet', 'al hayat');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (17, 'Monika', 'Monk');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (15, 'Nati', 'Hamady');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (10, 'Peter', 'SChmitt');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (6, 'Phearum', 'Svay');
+INSERT INTO `LB03-Lagerverwaltung`.tbl_mitarbeiter (mitarbeiter_id, vorname, nachname) VALUES (14, 'Tony', 'Hamady');

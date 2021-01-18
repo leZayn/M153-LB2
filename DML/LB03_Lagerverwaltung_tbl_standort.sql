@@ -1,0 +1,11 @@
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (3, 'Berlin', '10243', 6);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (4, 'Niederhasli', '8155', 5);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (5, 'Volketswil', '8604', 5);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (6, 'Paris', '75000', 8);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (7, 'Madrid', '28001', 9);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (8, 'Toledo', '45000', 9);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (9, 'Barcelona', '08000', 9);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (10, 'Chorges', '05230', 8);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (11, 'Rom', '00118', 7);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (12, 'Perugia', '06100', 7);
+INSERT INTO `LB03-Lagerverwaltung`.tbl_standort (standort_id, ortschaft, plz, id_land) VALUES (13, 'Ferrara', '44100', 7);
